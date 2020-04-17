@@ -3,9 +3,9 @@ Cheatsheet of the naming of all runs presented in the manuscript.
 
 For the orignal forcing data and transient signals, the reader is referred to their original publications.
 
-================================================================================
+=
                       1 - CALIBRATION AND SPINUP
-================================================================================
+=
 Calbration stage, where we obtain the basal conditions for sliding and melting given PI conditions: sico_specs_a20_cal[1234]_ccsm3_pi.h
 
 Final calibration stage, where the geometry is allowed to evolve: sico_specs_a20_cal5_ccsm3_pi_0[12].h
@@ -17,9 +17,9 @@ Thermal spinup: sico_specs_a20_mis11_ccsm3_therma2_init00a.h
 Surface relaxation: sico_specs_a20_mis11_ccsm3_rlxt425_init00a.h
 
 
-================================================================================
+=
                       2 - DIFFERENT ENSEMBLES
-================================================================================
+=
 SSEN
 sico_specs_a20_mis11_ccsm3_420_374ka_lr04rsc.h (using the last 10 kyr as opposed to PI)
 sico_specs_a20_mis11_ccsm3_420_374ka_edc3rschol.h (using the last 10 kyr as opposed to PI)
@@ -51,9 +51,9 @@ sico_specs_a20_mis11_ccsm3_420_374ka_FORCINGgmt[123].h
 where the forcing is as in the CFEN runs (edc3rsc refers to the 'edc3rschollgma' run, as also noted in the main text) and the gmt[1-3] also follows as in Table 3 in the main text.
 
 
-================================================================================
+=
                       3 - SUPPLEMENTARY EXPERIMENTS
-================================================================================
+=
 
 Vostok at 2.1 oC (GI) conditions: sico_specs_a20_mis11_ccsm3_410_374ka_vos*ppc.h (gmt coding as in SGEN)
 Vostok at 1.6 oC (GI) conditions: sico_specs_a20_mis11_ccsm3_410_374ka_vosppc16.h
