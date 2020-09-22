@@ -6,8 +6,9 @@ For the orignal forcing data and transient signals, the reader is referred to th
 
 For model output, please request the data to the corresponding authors, since the data is too large.
 
-================================================================================
-                      1 - CALIBRATION AND SPINUP
+
+
+##                      1 - CALIBRATION AND SPINUP
 
 - Calbration stage, where we obtain the basal conditions for sliding and melting given PI conditions: `sico_specs_a20_cal[1234]_ccsm3_pi.h`
 
@@ -18,33 +19,34 @@ For model output, please request the data to the corresponding authors, since th
 - First spinup to place the ice sheet at 620 ka: `sico_specs_a20_mis11_ccsm3_init00a.h`
 - Thermal spinup: `sico_specs_a20_mis11_ccsm3_therma2_init00a.h`
 
-================================================================================
-                      2 - DIFFERENT ENSEMBLES
 
-###CFEN
+
+##                      2 - DIFFERENT ENSEMBLES
+
+### CFEN
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3.h` (EDC-forced)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edf.h` (DF-forced)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_lr04.h` (LR04-forced)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_vos.h` (Vostok-forced)
 
-###SSEN
+### SSEN
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3rsclgma.h` (using the average as opposed to the peak value during the LGM)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_lr04rsclgma.h` (using the average as opposed to the peak value during the LGM)
 
 
-###RSEN
+### RSEN
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3lp1bx.h` (1 kyr low-pass box filter)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3lp3bx.h` (3 kyr low-pass box filter)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3lp5bx.h` (5 kyr low-pass box filter)
 
-###SLEN
+### SLEN
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_s16l.h` (using the "long" sea-level reconstruction from Spratt & Lisiecki, 2016)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_s16s.h` (using the "short" sea-level reconstruction from Spratt & Lisiecki, 2016)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_s16u.h` (using the upper boundary of the "short" sea-level reconstruction from Spratt & Lisiecki, 2016)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_spm.h` (using the SPECMAP sea-level reconstruction from Imbrie et al., 1989)
 - `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_wae.h` (using the sea-level reconstruction from Waelbroeck et al., 2002)
 
-###SGSEN
+### SGSEN
 - Creation of the ancillary geometry (based on the thermal spinup necessary, i.e., runs that needed a spinup to end before 425 ka):
 	- `sico_specs_a20_mis11_ccsm3_rlxg430ka_gmt1`
 	- `sico_specs_a20_mis11_ccsm3_rlxg425ka_gmt1`
@@ -52,11 +54,12 @@ For model output, please request the data to the corresponding authors, since th
 	- `sico_specs_a20_mis11_ccsm3_4[23][05]_394ka_FORCINGgmt[123].h` where the forcing is as in the CFEN runs, and the starting (relaxation) year as in the main text.
 
 
-================================================================================
-                      3 - SUPPLEMENTARY EXPERIMENTS
 
 
-###Discussion section (Fig. 10): 
+##                      3 - SUPPLEMENTARY EXPERIMENTS
+
+
+### Discussion section (Fig. 10): 
 
 - `discussion_thresholds` folder
 
@@ -66,7 +69,7 @@ For model output, please request the data to the corresponding authors, since th
 	- Vostok at 411 ka (GI) conditions: `sico_specs_a20_mis11_ccsm3_410_394ka_vosppc16.h`
 
 
-###Supplementary Material
+### Supplementary Material
 
 - Comparison between CESM1.2 and CCSM3: `cesm_racmo_comp` folder
 
