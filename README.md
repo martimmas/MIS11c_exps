@@ -75,7 +75,7 @@ For model output, please request the data to the corresponding authors, since th
 
 	- `sico_specs_a20_mis11_ccsm3_425_394ka_edc3_ce**.h` where * is the variable from CESM1.2. The same coding is valid for one and two variable experiments:
 	- air [t]emperature 
-	- [o]ocean temperature 
+	- [o]cean temperature 
 	- [p]recipitation
 	- calibrated basal [s]liding 
 
