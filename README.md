@@ -92,6 +92,10 @@ For model output, please request the data to the corresponding authors, since th
 	- `sico_specs_a20_mis11_ccsm3_425_394ka_edc3dto05.h` dT of -0.5 deg.C is applied to the ocean
 	- `sico_specs_a20_mis11_ccsm3_425_394ka_edc3dto10.h` dT of -1.0 deg.C is applied to the ocean
 
+- Different resolution tests: `resolution_tests` folder
+	- `sico_specs_a10_mis11_ccsm3_jb_zl_nrj.h` nudges bedrock from 20 km to XX km resolution (in this case 10 km) if given the higher resolution bedrock as input
+	- `sico_specs_aXX_mis11_ccsm3_jb_full_nrj_rbd.h` runs the higher-resolution experiments under the same forcing as the EDC CFEN member.
+
 ================================================================================
 
 Folder `tcd_submission` contains original header files of the first submission to TC Discussions.
